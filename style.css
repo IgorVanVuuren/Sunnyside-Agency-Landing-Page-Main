@@ -253,6 +253,10 @@ nav and header media queries
         min-width: 650px;
     }
 
+    .hero-text > h1 {
+        font-size: 60px;
+    }
+
 }
 
 /* 
@@ -738,12 +742,12 @@ article and testimony media queries start
     }
 
     .client > p {
-        margin-top: 65px;
+        margin-top: 60px;
         max-width: 335px;
     }
 
     .client > h5 {
-        margin-top: 80px;
+        margin-top: 75px;
     }
 
     .client > h6 {
@@ -791,7 +795,7 @@ four img start media queries start
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         min-height: 445px;
-        margin: 22px auto 0 auto;
+        margin: 12px auto 0 auto;
     }
 
     .mobile-section-img {
