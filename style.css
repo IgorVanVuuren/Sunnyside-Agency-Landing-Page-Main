@@ -867,6 +867,16 @@ footer start
     align-items: center;
 }
 
+.active-state-1:hover,
+.active-state-1:focus {
+    color: var(--white);
+}
+
+.active-state-2:hover,
+.active-state-2:focus {
+    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(87deg) brightness(101%) contrast(100%);
+}
+
 /* 
 footer end
 */
